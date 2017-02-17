@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScriptsUppgift2och3</title>
+</head>
+
+<body>
+<p id='Tal'>Skriv in ett tal</p>
+<input type ='button' onclick='changeText()' value='Ändra tal'/>
+
+<script type="text/javascript">
+function changeText(){
+	while (true){
+	var mittTal=prompt("Skriv in ett tal");
+    if (isNaN(mittTal) || mittTal == "") 
+	{
+		alert("Nä tror inte de va")
+		
+		}
+	else{
+	document.getElementById('Tal').innerHTML = mittTal;
+	break;
+	}}
+	
+}
+</script>
+</body>
+</html>

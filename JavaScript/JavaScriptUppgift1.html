@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScriptUppgift1</title>
+<link href="JavaScriptUppgift1.css" rel="stylesheet" type="text/css">
+<style>
+p {
+	font-size: 150%;
+	cursor:pointer;
+}
+</style>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+	<div id="storebox">
+	<article>
+	<button id="right">Höger</button>
+    <button id="left">Vänster</button>
+    <button id="down">Ner</button>
+    <button id="up">Upp</button>
+	<button id="stop">Stop</button>
+	 <div id ="block"></div>
+<script>
+$( "#right" ).click(function() {
+  var myDiv = $( "#block" );
+  myDiv.show( "slow" );
+  myDiv.animate({
+    left:"+=500"
+  }, 3000 );
+  });
+  $( "#left" ).click(function() {
+  var myDiv = $( "#block" );
+  myDiv.show( "slow" );
+  myDiv.animate({
+    left:"-=500"
+  }, 3000 );
+  });
+  $( "#down" ).click(function() {
+  var myDiv = $( "#block" );
+  myDiv.show( "slow" );
+  myDiv.animate({
+    bottom:"-=500"
+  }, 3000 );
+  });
+  $( "#up" ).click(function() {
+  var myDiv = $( "#block" );
+  myDiv.show( "slow" );
+  myDiv.animate({
+    bottom:"+=500"
+  }, 3000 );
+  });
+ 
+$( "#stop" ).click(function() {
+  var myDiv = $( "div" );
+  myDiv.stop();
+});
+</script>
+     </article>
+     </div>
+</body>
+</html>
