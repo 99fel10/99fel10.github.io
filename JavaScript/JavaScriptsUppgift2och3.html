@@ -13,15 +13,16 @@
 function changeText(){
 	while (true){
 	var mittTal=prompt("Skriv in ett tal");
-    if (isNaN(mittTal) || mittTal == "") 
+	
+    if (!isNaN(mittTal) && mittTal != "") 
 	{
-		alert("Nä tror inte de va")
-		
+		document.getElementById('Tal').innerHTML = mittTal;
+		break;
 		}
 	else{
-	document.getElementById('Tal').innerHTML = mittTal;
-	break;
-	}}
+		alert("Inget tal inskrivet")
+		}
+	}
 	
 }
 </script>
