@@ -257,7 +257,7 @@ nav{
 .DroppNavBox:Hover, .DroppNavBox:Active{
 	background-color: rgba(96,96,96,0.1);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 body{
 	background-image:url(SlutprojektBakgrundsbild2.jpg);
 	background-position:center;
