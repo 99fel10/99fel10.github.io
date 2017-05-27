@@ -1,74 +1,75 @@
 @charset "utf-8";
 body{
-	background-image:url(SlutprojektBakgrundsbild.jpg);
-	background-position:center;
-	background-size:cover;
+	background-image: url(SlutprojektBakgrundsbild.jpg);
+	background-position: center;
+	background-size: cover;
 	background-attachment: fixed;	
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 #storebox{
-	width:100%;
-	height:100%;
-	position:absolute;
-	margin-top:inherit;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top: inherit;
 }
 #VansterIndexBoxHallare{
-	width:20%;
-	position:fixed;
-	top:35%;
-	left:25%;
+	width: 20%;
+	position: fixed;
+	top: 35%;
+	left: 25%;
 }
 #HogerIndexBoxHallare{
-	width:20%;
-	position:fixed;
-	top:35%;
-	right:25%;
+	width: 20%;
+	position: fixed;
+	top: 35%;
+	right: 25%;
 }
 .IndexBox{
-	font-family:"Perpetua Titling MT";
-	font-size:2vw;
-	text-align:center;
-	background-color:rgba(255,255,255,0.8);
-	width:100%;
-	height:10vw;	
+	font-family: "Perpetua Titling MT";
+	font-size: 2vw;
+	background-color: rgba(255,255,255,0.8);
+	width: 100%;
+	height: 10vw;	
 	margin-bottom: 10%;
-	outline-color:rgba(255,255,255,0.8); 
+	outline-color: rgba(255,255,255,0.8); 
 	outline: 0.4vw hidden;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	word-wrap: break-word;
 	display: flex;	
 }
 .IndexBox:hover{
 	background-color: rgba(255,255,255,0.9);
 	outline: 0.4vw solid rgba(255,255,255,0.9);
-	transition:ease-in 0.15s;
+	transition: ease-in 0.15s;
 }
 .BoxText{
-	font-family:"Perpetua Titling MT";
+	font-family: "Perpetua Titling MT";
 	font-size: 2vw;
 	text-align: center;
-	margin:auto;
+	margin: auto;
 }
 a{
-	text-decoration:none;
-	color:#000;
+	text-decoration: none;
+	color: #000;
 }
+
 nav{
-	background-image:url(Nav.png);
-	background-position:center;
-	background-size:100% 100%;
-	width:98%;
-	height:10%;
+	background-image: url(Nav.png);
+	background-position: center;
+	background-size: 100% 100%;
+	width: 98%;
+	height: 10%;
 	min-height: 50px;
-	margin-top:3%;
-	margin-left:1%;
+	margin-top: 3%;
+	margin-left: 1%;
+	margin-bottom: 5%;
 }
 .NavBox{
-	color:#003d8f;
+	color: #003d8f;
 	height: 100%;
 	width: 18%;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	word-wrap: break-word;
 	display: flex;
 }
@@ -92,50 +93,50 @@ nav{
 	float: right;
 }
 .HemknappHallare{
-	height:10%;
-	width:6vh;
+	height: 10%;
+	width: 6vh;
 	min-width: 30px;
 	position: absolute;
-	left:50%;
-	flaot: left;
+	margin-left: 49%;
+	float: left;
 }
-
 .Hemknapp{
-	background-image:url(Hemknapp.png);
-	background-position:center;
-	background-size:100% 100%;
-	width:6vh;
+	background-image: url(Hemknapp.png);
+	background-position: center;
+	background-size: 100% 100%;
+	width: 6vh;
 	min-width: 30px;
-	height:100%;
-	margin-right:50%;
-	float:right;
+	min-height: 50px;
+	height: 100%;
+	margin-right: 50%;
+	float: right;
 }
 .Hemknapp:Hover{
-	width:6.5vh;
-	margin-right:45%;
+	width: 6.5vh;
+	margin-right: 45%;
 	transition:ease-in 0.1s;
 	
 }
 .NavBox.Vasatiden:Hover ~ .Underline{
-	margin-left:7%;
+	margin-left: 7%;
   	transition: .3s ease-in-out;
 }
 .NavBox.Stormaktstiden:Hover ~ .Underline{
-	margin-left:24.5%;
+	margin-left: 24.5%;
 	transition: .3s ease-in-out;
 }
 .NavBox.b17191809:Hover ~ .Underline{
-	margin-left:56%;
+	margin-left: 56%;
 	transition: .3s ease-in-out;
 }
 .NavBox.Gransforandringar:Hover ~ .Underline{
-	margin-left:73.5%;
+	margin-left: 73.5%;
 	transition: .3s ease-in-out;
 }
 .Underline{
 	height: 0.5%;
  	width: 17.5%;
-	margin-top:9.7vh;
+	margin-top: 9.7vh;
 	background-color: #0CF;
 	transition: .3s ease-in-out;
 	position: absolute;
@@ -156,24 +157,62 @@ nav{
 	margin-left: 46.5%;
 	width: 5%;
 }
-#Hallare{
-	height:80%;
-	width:90%;
-	margin-left:5%;
+
+article{
+	background-color: rgba(255,255,255,0.8);
+	width: 45%;
+	margin: 5%;
+	padding: 5%;
+}
+h1{
+	font-family: "Perpetua Titling MT";
+	font-size: 2vw;
+	text-align: center;
+}
+h2{
+	font-family: "Perpetua Titling MT";
+	font-size: 1.25vw;
+	text-align: center;
+}
+p{
+	font-family: "Perpetua";
+	font-size: 1.25vw;
+}
+section{
+	margin: 5% 0;
+}
+#imgBox{
+	margin-right: 5%;
+	width: 30%;
+	float: right;
+	overflow: hidden;
+}
+#imgBox img{
+	width: 100%;
+	float: left;
+}
+.bilder{
+	display: none;
+}
+
+#BoxHallare{
+	height: 80%;
+	width: 90%;
+	margin-left: 5%;
 }
 #GransforandringBoxHallare{
-	width:60%;
-	height:90%;
-	margin-top:5%;
-	float:left;
+	width: 60%;
+	height: 90%;
+	margin-top: 5%;
+	float: left;
 	display: flex;
 	flex-wrap: wrap;
 }
 .InfoBox{
 	background-color: rgba(255,255,255,0.8);
-	width:96%;
-	height:22%;
-	float:left;
+	width: 96%;
+	height: 22%;
+	float: left;
 	display: flex;
 	overflow: hidden;
 }
@@ -183,43 +222,43 @@ nav{
 	display: none;
 }
 .InfoBox .BoxText.b{
-	display:block;
+	display: block;
 }
 .GransforandringBox{
 	background-color: rgba(255,255,255,0.8);
-	width:30%;
-	height:10%;
-	margin-top:3%;
-	margin-right:3%;
-	float:left;
+	width: 30%;
+	height: 10%;
+	margin-top: 3%;
+	margin-right: 3%;
+	float: left;
 	display: flex;
 }
 #KartBox{
-	background-image:url(1100-talet.jpg);
+	background-image: url(1100-talet.jpg);
 	background-position: left;
 	background-size: cover;
-	width:33%;
+	width: 33%;
 	height: 35vw;
-	margin-top:5%;
-	float:right;
+	margin-top: 5%;
+	float: right;
 	overflow: hidden;
 }
 #KartBox > img{
 	height: 35vw;
-	float:left;
+	float: left;
 	display: none;
 }
 
 #MobilMeny{
-	width:100%;
-	height:50px;
-	background-color:#F8D954;
-	display:none;
+	width: 100%;
+	height: 50px;
+	background-color: #ffdf55;
+	display: none;
 	position: fixed;
 	z-index: 2;
 }
 #MobilMeny.active{
-		background-color:#E8CE67;
+	background-color: #E8CE67;
 }
 .MobilMenyKnapp{
 	margin: 8px 10px; 
@@ -227,7 +266,7 @@ nav{
 	border-radius: 3px;
 	border: 3px solid #003d8f;
 	transform-origin: 0% 50%;
-	transition: transform 0.3s ease;
+	transition: 0.3s ease;
 	
 }
 .MobilMenyKnapp.Center{
@@ -243,18 +282,18 @@ nav{
 	transform: rotate(-38deg)
 }
 #Droppmeny{
-	width:100%;
-	height:37.5%;
-	display:none;
+	width: 100%;
+	height: 37.5%;
+	display: none;
 	position: fixed;
-	top:50px;
-	background-color:#ffdf55;
+	top: 50px;
+	background-color: #ffdf55;
 	z-index: 2;
 }
 .DroppNavBox{
-	width:100%;
-	height:20%;
-	display:none;
+	width: 100%;
+	height: 20%;
+	display: none;
 	z-index: 2;
 }
 .DroppNavBox:Hover, .DroppNavBox:Active{
@@ -262,35 +301,62 @@ nav{
 }
 @media screen and (max-width: 600px) {
 body{
-	background-image:url(SlutprojektBakgrundsbild2.jpg);
-	background-position:center;
-	background-size:cover;
+	background-image: url(SlutprojektBakgrundsbild2.jpg);
+	background-position: center;
+	background-size: cover;
 	background-attachment: fixed;
 }
+article{
+	width: 80%;
+	margin-top: 15%;
+}
+h1{
+	font-size: 4vw;
+}
+h2{
+	font-size: 2.5vw;
+}
+p{
+	font-size: 2.5vw;
+}
+section{
+	margin: 10% 0;
+}
+#imgBox{
+	display: none;
+}
+.bilder{
+	width: 50%;
+	margin-left: 25%;
+	display: block;
+}
+.bilder img{
+	width: 100%;
+}
 .BoxText{
-	font-size:5vw;
+	font-size: 5vw;
 }
 #MobilMeny{
-	display:block;
+	display: block;
 }
 .DroppNavBox{
-	display:flex;
+	display: flex;
 }
 nav{
-	display:none;
+	display: none;
 }
 .GransforandringBox .BoxText{
 	font-size: 4vw;
 }
 #VansterIndexBoxHallare{
-	width:25%;
-	top:30%;
-	left:6%;
+	width: 25%;
+	top: 30%;
+	left: 6%;
 }
 #HogerIndexBoxHallare{
-	width:25%;
-	top:30%;
-	right:23%;
+	width: 25%;
+	top: 30%;
+	right: 23%;
 }
 .IndexBox{
 	width: 165%;
@@ -298,7 +364,7 @@ nav{
 	margin-bottom: 40%;
 }
 .InfoBox{
-	height:32%;
+	height: 32%;
 }
 .InfoBox .BoxText{
 
@@ -308,17 +374,17 @@ nav{
 #KartBox{
 	margin-right: 15%;
 	margin-top: 60px;
-	width:66%;
+	width: 66%;
 	height: 70vw;
 }
 #KartBox > img{
 	height: 70vw;
 }
 #GransforandringBoxHallare{
-	width:100%;
-	height:90%;
-	margin-top:5%;
-	margin-left:1.5%;
+	width: 100%;
+	height: 90%;
+	margin-top: 5%;
+	margin-left: 1.5%;
 	
 }
 }
