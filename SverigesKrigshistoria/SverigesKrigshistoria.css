@@ -63,7 +63,7 @@ nav{
 	min-height: 50px;
 	margin-top: 3%;
 	margin-left: 1%;
-	margin-bottom: 5%;
+	margin-bottom: 4%;
 }
 .NavBox{
 	color: #003d8f;
@@ -196,7 +196,7 @@ section{
 }
 
 #BoxHallare{
-	height: 80%;
+	height: 75%;
 	width: 90%;
 	margin-left: 5%;
 }
