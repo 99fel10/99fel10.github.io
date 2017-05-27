@@ -203,7 +203,6 @@ section{
 #GransforandringBoxHallare{
 	width: 60%;
 	height: 90%;
-	margin-top: 5%;
 	float: left;
 	display: flex;
 	flex-wrap: wrap;
@@ -239,7 +238,6 @@ section{
 	background-size: cover;
 	width: 33%;
 	height: 35vw;
-	margin-top: 5%;
 	float: right;
 	overflow: hidden;
 }
